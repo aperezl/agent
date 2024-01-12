@@ -19,5 +19,5 @@ const server = Bun.serve({
     }
   }
 })
-
+export default server
 console.log(`Listening on localhost:${server.port}`)
